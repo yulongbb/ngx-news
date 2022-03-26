@@ -1,0 +1,12 @@
+<nb-card class="own-scroll">
+  {{(category | async)?.name}}
+  
+  <nb-list nbInfiniteList [threshold]="3000" (bottomThreshold)="loadNext(firstCard, category)">
+    <nb-list-item *ngFor="let newsPost of firstCard.news">
+      <ngx-article [post]="newsPost" [language]="language"></ngx-article>
+    </nb-list-item>
+    <nb-list-item *ngFor="let _ of firstCard.placeholders">
+      <ngx-article-placeholder></ngx-article-placeholder>
+    </nb-list-item>
+  </nb-list>
+</nb-card>

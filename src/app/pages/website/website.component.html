@@ -1,0 +1,12 @@
+<ag-grid-angular
+    style="width: 100%; height: 1200px;"
+    class="ag-theme-alpine"
+    [editType]="editType"
+    [rowData]="rowData | async"
+    [columnDefs]="columnDefs"
+    [animateRows]="true"
+    [suppressClickEdit]="true"
+    (cellClicked)="onCellClicked($event)"
+    (rowValueChanged)="onRowValueChanged($event)"
+    (gridReady)="onGridReady($event)">
+</ag-grid-angular>

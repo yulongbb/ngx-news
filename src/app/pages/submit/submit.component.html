@@ -1,0 +1,18 @@
+<nb-card>
+    <nb-card-header>
+
+    </nb-card-header>
+    <nb-card-body>
+        <form [formGroup]="submitForm" (ngSubmit)="submit(submitForm.value)">
+            <div class="form-group">
+                <input id="title" name="title"  formControlName="title" placeholder="标题"  nbInput fullWidth  required >
+            </div>
+            <ngx-tiny-mce  (editorKeyup)="edit($event)"></ngx-tiny-mce>
+
+            <button nbButton status="primary" size="small" type="submit">提交</button>
+        </form>
+    </nb-card-body>
+    <nb-card-footer>
+
+    </nb-card-footer>
+</nb-card>

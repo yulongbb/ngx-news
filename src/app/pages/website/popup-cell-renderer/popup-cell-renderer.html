@@ -1,0 +1,13 @@
+<div>
+    <button #trigger class="btn btn-primary" data-action="toggle">操作</button>
+  
+    <div #content  class="menu-container">
+      <div (click)="onClickHandler('create')" class="menu-item">
+        新增
+      </div>
+      <div (click)="onClickHandler('edit')" class="menu-item">编辑</div>
+      <div (click)="onClickHandler('save')" class="menu-item">保存</div>
+      <div (click)="onClickHandler('delete')" class="menu-item">删除</div>
+    </div>
+  </div>
+  
