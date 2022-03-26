@@ -1,0 +1,26 @@
+[
+    {
+        "id": "CAAqKQgKIiNDQkFTRkFvSkwyMHZNREZqY0hsNUVnZDZhQzFJWVc1ektBQVAB",
+        "name": "COVID_19"
+    },{
+        "id": "CAAqJggKIiBDQkFTRWdvSkwyMHZNR1F3TlhjekVnVjZhQzFEVGlnQVAB0",
+        "name": "中国"
+    },{
+        "id": "CAAqKggKIiRDQkFTRlFvSUwyMHZNRGx1YlY4U0JYcG9MVU5PR2dKRFRpZ0FQAQ",
+        "name": "全球"
+    },{
+        "id": "CAAqHAgKIhZDQklTQ2pvSWJHOWpZV3hmZGpJb0FBUAE",
+        "name": "本地"
+    },{
+        "id": "CAAqKggKIiRDQkFTRlFvSUwyMHZNRGx6TVdZU0JYcG9MVU5PR2dKRFRpZ0FQAQ",
+        "name": "商业"
+    },{
+        "id": "CAAqKggKIiRDQkFTRlFvSUwyMHZNREpxYW5RU0JYcG9MVU5PR2dKRFRpZ0FQAQ",
+        "name": "娱乐"
+    },{
+        "id": "CAAqKggKIiRDQkFTRlFvSUwyMHZNRFp1ZEdvU0JYcG9MVU5PR2dKRFRpZ0FQAQ",
+        "name": "体育"
+    } 
+]
+
+
