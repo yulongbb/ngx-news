@@ -42,7 +42,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          npm install ag-grid-community ag-grid-angular
-          npm install tippy.js
           npm install angular-cli-ghpages
           npm run ng -- deploy --no-silent
